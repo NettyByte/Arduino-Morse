@@ -5,40 +5,30 @@
  *
  * Morsecode Tabelle: https://de.wikipedia.org/wiki/Morsecode
  */
- 
-//Bibliothek
 
 #include <Arduino.h>
 #include <string.h>
 
-// Einstellungen
 const int ledPin = 13;
 const int punktDauer = 200;
 const int strichDauer = 600;
 const int buchstabenPause = 600;
 const int wortPause = 3000;
 
-// Morse buchstaben
 const char* morseCode[][2] = {
   { "W", ".--" },
   { "S", "..." },
   { "V", "...-" },
 };
-// Morse größe / Buchstaben Größe
-const int Buchstabencount = sizeof(morseCode) / sizeof(morseCode[0]);
 
-// Parameter
+const int Buchstabencount = sizeof(morseCode) / sizeof(morseCode[0]);
 
 void playMorse(const char* buchstabe);
 void blinken(int dauer);
 
-// Pin Auswahl / Setup
-
 void setup() {
   pinMode(ledPin, OUTPUT);
 }
-
-// Wiederholen
 
 void loop() {
   for (int i = 0; i < Buchstabencount; i++) {
@@ -47,7 +37,6 @@ void loop() {
   }
 }
 
-// Morse Abspielen
 void playMorse(const char* buchstabe) {
   for (int i = 0; i < Buchstabencount; i++) {
     if (strcmp(morseCode[i][0], buchstabe) == 0) {
@@ -65,7 +54,6 @@ void playMorse(const char* buchstabe) {
   }
 }
 
-// Blink dauer Pin aus den Einstellungen und die Punkte Dauer
 void blinken(int dauer) {
   digitalWrite(ledPin, HIGH);
   delay(dauer);
