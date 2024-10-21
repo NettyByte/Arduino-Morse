@@ -4,6 +4,7 @@
  * Hilfe: Github Co-Pilot / Angaben in Millisek. (Dauer)
  *
  * Morsecode Tabelle: https://de.wikipedia.org/wiki/Morsecode
+ * https://github.com/devschlumpfi/Arduino-Morse
  */
 
 #include <Arduino.h>
