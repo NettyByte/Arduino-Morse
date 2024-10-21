@@ -42,5 +42,5 @@ Du kannst die Tabelle leicht erweitern, indem du zusätzliche Buchstaben und der
 2. Beobachte, wie die LED Morsecode blinkt.
 3. Passe die Buchstabentabelle nach deinen Wünschen an.
 
-![Morsecode LED](https://www.elprocus.com/wp-content/uploads/arduino-mega-2560-board-pin-diagram.jpg)  
+![Arduino Morsecode LED](https://www.elprocus.com/wp-content/uploads/arduino-mega-2560-board-pin-diagram.jpg)  
 
