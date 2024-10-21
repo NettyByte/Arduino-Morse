@@ -1,7 +1,5 @@
 # 📡 Morsecode LED-Blinker für Arduino Mega 2560
 
-![Morsecode LED](https://funduino.de/wp-content/uploads/2022/03/versuchsaufbau-rgb-led-ansteuern-arduino.webp)  
-
 ## 🛠️ Beschreibung
 
 Dieses Projekt ermöglicht es, Morsecode über eine LED auszugeben. Mit einem Arduino Mega 2560 kannst du Buchstaben in Morsecode umwandeln und die LED entsprechend blinkend anzeigen.
@@ -12,7 +10,7 @@ Dieses Projekt ermöglicht es, Morsecode über eine LED auszugeben. Mit einem Ar
 - **LED (angeschlossen an Pin 13)**
 - **Widerstand (optional, um die LED zu schützen)**
 
-## ⚙️ Einstellungen
+## ⚙️ Einstellungen (Veränderbar)
 
 - **Punkt Dauer:** 200 ms
 - **Strich Dauer:** 600 ms
@@ -43,4 +41,6 @@ Du kannst die Tabelle leicht erweitern, indem du zusätzliche Buchstaben und der
 1. Lade den Code auf dein Arduino Mega 2560 hoch.
 2. Beobachte, wie die LED Morsecode blinkt.
 3. Passe die Buchstabentabelle nach deinen Wünschen an.
+
+![Morsecode LED](https://www.elprocus.com/wp-content/uploads/arduino-mega-2560-board-pin-diagram.jpg)  
 
